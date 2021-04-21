@@ -1,0 +1,358 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #DAF7FF;
+}
+
+/*------------------------header footer---------------------*/
+
+header{
+    height: 10em;
+    width: auto;
+    background-color: #F1E8F6;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding: 30px;
+}
+.logo img{
+    width: 200px;
+}
+
+.iconPanier{
+    padding: 30px;
+}
+
+i{
+    font-size: 50px;
+    color: #8D40DD;
+}
+
+i:hover{
+    font-size: 50px;
+    color: #4052DD;
+}
+
+footer{
+    height: 10em;
+    background-color: #F1E8F6;
+}
+
+
+/*------------------------accueil---------------------*/
+
+
+.articleNounours{
+    background-color: #F1E8F6;
+    margin: 50px auto;
+    width: 500px;
+}
+
+.divBouton a{
+    text-decoration: none;
+    background-color: #8D40DD;
+    color: white;
+    font-family: fantasy;
+    padding: 10px;
+}
+.divBouton a:hover{
+    background-color: #4052DD;
+    transition: 1s;
+}
+
+.divPhoto img{
+    width: 500px;
+}
+
+#annonceNounourse .articleNounours .divInfo{
+    padding: 10px;
+}
+
+
+/*------------------------produit---------------------*/
+
+.produitNounours{
+    background-color: #F1E8F6;
+    margin: 50px auto;
+    width: 700px;
+}
+
+.divNamePrice{
+    color: #8D40DD;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.divPhotoproduit img{
+    width: 700px;
+}
+
+.divSelectionCouleur{
+    margin: 50px;
+    text-align: center;
+}
+select{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: #8D40DD;
+    color: white;
+    padding: 10px;
+}
+select:hover{
+    background-color: #4052DD;
+    transition: 1s;
+}
+.divBoutonAjouterPanier{
+    text-align: center;
+}
+.divBoutonAjouterPanier button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: #8D40DD;
+    color: white;
+}
+.divBoutonAjouterPanier button:hover{
+    background-color: #4052DD;
+    transition: 1s;
+}
+.divInfoProduit{
+    padding: 50px;
+}
+
+
+
+/*------------------------Panier---------------------*/
+
+#Recupitulatif img{
+    width: 200px;
+}
+
+
+
+#panier{
+    text-align: center;
+}
+
+#Recupitulatif table{
+    margin: 50px auto;
+    width: 1000px;
+}
+
+#form form{
+    margin: 50px auto;
+    width: 300px;
+    padding: 50px 50px;
+}
+
+#panier button{
+    text-decoration: none;
+    background-color: #8D40DD;
+    color: white;
+    font-family: fantasy;
+    padding: 10px;
+}
+#panier button:hover{
+    background-color: #4052DD;
+    transition: 1s;
+}
+
+#panier .btnCommande{
+    text-decoration: none;
+    background-color: #8D40DD;
+    color: white;
+    font-family: fantasy;
+    padding: 10px;
+}
+#panier .btnCommande:hover{
+    background-color: #4052DD;
+    transition: 1s;
+}
+
+
+/*------------------------validation---------------------*/
+
+.resume{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.resume a{
+    text-decoration: none;
+    background-color: #8D40DD;
+    color: white;
+    font-family: fantasy;
+    padding: 10px;
+}
+
+.resume a:hover{
+    background-color: #4052DD;
+    transition: 1s;
+}
+
+
+@media all and (max-device-width: 600px)
+{
+
+/*------------------------header footer---------------------*/
+
+header{
+    height: 5em;
+    background-color: #F1E8F6;
+}
+.logo{
+    padding: 10px;
+}
+.logo img{
+    width: 100px;
+}
+.iconPanier{
+    padding: 20px;
+}
+
+i{
+    font-size: 40px;
+    color: #8D40DD;
+}
+
+
+/*------------------------accueil---------------------*/
+
+
+.articleNounours{
+    background-color: #F1E8F6;
+    margin: 50px auto;
+    width: 300px;
+}
+
+.divPhoto img{
+    width: 300px;
+}
+
+
+/*------------------------produit---------------------*/
+
+.produitNounours{
+    width: 300px;
+}
+
+.divPhotoproduit img{
+    width: 300px;
+}
+
+.divSelectionCouleur{
+    margin: 50px 0px;
+}
+
+/*------------------------Panier---------------------*/
+
+#Recupitulatif img{
+    width: 50px;
+}
+
+#panier{
+    text-align: center;
+}
+
+#panier h1{
+    font-size: 25px;
+}
+
+#panier h2{
+    font-size: 20px;
+}
+
+#Recupitulatif table{
+    margin: 50px 0px;
+    width: 100%;
+    font-size: 10px;
+}
+
+
+
+}
+
+@media all and (max-width: 1000px)
+{
+
+/*------------------------header footer---------------------*/
+
+header{
+    height: 5em;
+    background-color: #F1E8F6;
+}
+.logo{
+    padding: 10px;
+}
+.logo img{
+    width: 100px;
+}
+.iconPanier{
+    padding: 20px;
+}
+
+i{
+    font-size: 40px;
+    color: #8D40DD;
+}
+
+
+/*------------------------accueil---------------------*/
+
+
+.articleNounours{
+    background-color: #F1E8F6;
+    margin: 50px auto;
+    width: 300px;
+}
+
+.divPhoto img{
+    width: 300px;
+}
+
+
+/*------------------------produit---------------------*/
+
+.produitNounours{
+    width: 300px;
+}
+
+.divPhotoproduit img{
+    width: 300px;
+}
+
+.divSelectionCouleur{
+    margin: 50px 0px;
+}
+
+/*------------------------Panier---------------------*/
+
+#Recupitulatif img{
+    width: 50px;
+}
+
+#panier{
+    text-align: center;
+}
+
+#panier h1{
+    font-size: 25px;
+}
+
+#panier h2{
+    font-size: 20px;
+}
+
+#Recupitulatif table{
+    margin: 50px 0px;
+    width: 100%;
+    font-size: 10px;
+}
+
+
+
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="image/logo.png" alt="logo du site Orinoco">
+            </a>
+        </div>
+        <div class="iconPanier">
+            <a href="panier.html"><i class="fas fa-shopping-basket"></i></a>
+        </div>
+    </header>
+
+    <section id = "panier">
+        <h1>Votre panier</h1>
+        <h2>Récapitulatif des article que vous souhaiter commander</h2>
+
+        <div id="Recupitulatif"></div>
+
+
+        <div id="form">
+            <form method="POST">
+                <h3>Formulaire de Contact</h3>
+                <input placeholder = "entrer votre nom" id="inputNom">
+                <p id="erreurNom"></p>
+                <input placeholder = "entrer votre prenom" id="inputPrenom">
+                <p id="erreurPrenom"></p>
+                <input type="email" placeholder = "entrer votre Email" id="inputEmail">
+                <p id="erreurEmail"></p>
+                <input placeholder = "entrer votre adresse" id="inputAdresse">
+                <p id="erreurAdresse"></p>
+                <input placeholder = "entrer votre ville" id="inputVille">
+                <p id="erreurVille"></p>
+                
+
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <ul></ul>
+    </footer>
+
+
+    <script src="javascript/panier.js"></script>
+    
+</body>
+</html>
